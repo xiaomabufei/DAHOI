@@ -77,13 +77,13 @@ data
 We currently provide results on HICO-DET.
 
 Download the model to `params` folder.
-- We test the model with NVIDIA A6000 GPU, Pytorch 1.9.0, Python 3.8 and CUDA 11.2.
+- We test the model with NVIDIA RTX 3090 GPU, Pytorch 1.10.0, Python 3.8 and CUDA 11.2.
 
 | Model | Full (def) | Rare (def) | None-Rare (def) | Full (ko) | Rare (ko) | None-Rare (ko) | Download |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Swin-Tiny | 28.47 | 22.44 | 30.27 | 30.99 | 24.83 | 32.84 | [model](https://drive.google.com/file/d/1CLcR_upML6gakF8u11Vxdv_K6xZ0k3Dm/view?usp=sharing) |
-| Swin-Base*+ | 33.58 | 25.86 | 35.88 | 35.34 | 27.24 | 37.76 | [model](https://drive.google.com/file/d/1jfw304N3KYvj25-94-T2a-SfLNkmcdj0/view?usp=sharing) |
-| Swin-Large*+ | 35.78 | 29.80 | 37.56 | 37.59 | 31.36 | 39.36 | [model](https://drive.google.com/file/d/1ve97e1foCxvsmllOWcFRx8kkYEDO882m/view?usp=sharing) |
+| VFDA-Tiny | 31.09 | 24.52 | 33.05 | 33.25 | 26.38 | 35.30 | [model](https://drive.google.com/file/d/1CLcR_upML6gakF8u11Vxdv_K6xZ0k3Dm/view?usp=sharing) |
+| VFDA-Base | 32.72 | 24.68 | 34.65 | 34.57 | 26.84 | 36.04 | [model](https://drive.google.com/file/d/1jfw304N3KYvj25-94-T2a-SfLNkmcdj0/view?usp=sharing) |
+| VFDA-Base*+ | 36.24 | 28.64 | 38.42 | 38.04 | 28.79 | 40.22 | [model](https://drive.google.com/file/d/1ve97e1foCxvsmllOWcFRx8kkYEDO882m/view?usp=sharing) |
 
 Evaluating the model by running the following command.
 
