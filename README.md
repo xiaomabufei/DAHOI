@@ -1,7 +1,7 @@
 # DAHOI
 DAHOI:Dynamic Anchor for Human-Object Interaction Detection
 
-<img src="img/overall architecture of DAHOI.png"  width="1000"/>
+<img src="img/overall architecture of DAHOI.png"  width="800"/>
 
 ## Requirements
 
