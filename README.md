@@ -1,6 +1,7 @@
 # DAHOI
 DAHOI:Dynamic Anchor for Human-Object Interaction Detection
-<img src="img/overall architecture of DAHOI.png"  width="800"/>
+
+<img src="img/overall architecture of DAHOI.png"  width="1000"/>
 
 ## Requirements
 
@@ -70,7 +71,7 @@ data
 |       ├── test_vcoco.json
 |       └── trainval_vcoco.json
 ```
-
+#**********************************
 ## Evaluation
 
 We currently provide results on HICO-DET.
