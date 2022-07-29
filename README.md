@@ -71,7 +71,7 @@ data
 |       ├── test_vcoco.json
 |       └── trainval_vcoco.json
 ```
-#**********************************
+
 ## Evaluation
 
 We currently provide results on HICO-DET.
@@ -91,19 +91,19 @@ Evaluating the model by running the following command.
 
 `mAP_default.json` and `mAP_ko.json` will save in current folder.
 
-- Swin-Tiny
+- VFDA-Tiny
 
 ```bash
 python main.py --resume params/QAHOI_swin_tiny_mul3.pth --backbone swin_tiny --num_feature_levels 3 --use_nms --eval
 ```
 
-- Swin-Base*+
+- VFDA-Base
 
 ```bash
 python main.py --resume params/QAHOI_swin_base_384_22k_mul3.pth --backbone swin_base_384 --num_feature_levels 3 --use_nms --eval
 ```
 
-- Swin-Large*+
+- VFDA-Base*+
 
 ```bash
 python main.py --resume params/QAHOI_swin_large_384_22k_mul3.pth --backbone swin_large_384 --num_feature_levels 3 --use_nms --eval
