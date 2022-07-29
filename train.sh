@@ -1,0 +1,13 @@
+python -m torch.distributed.launch \
+        --nproc_per_node=8 \
+        --use_env main.py \
+        --backbone dat_tiny \
+        --resume /mnt/gluster/home/mashuailei/DAHOI/logs/coco_tiny/checkpoint0000.pth \
+        --cfg configs/dat_tiny.yaml \
+        --output_dir logs/coco_tiny \
+        --epochs 150 \
+        --lr_drop 120 \
+        --num_feature_levels 3 \
+        --num_queries 300 \
+        --N 5 \
+        --use_nms 
