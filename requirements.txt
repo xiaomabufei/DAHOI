@@ -1,3 +1,7 @@
 cython
 pycocotools
 scipy
+pyyaml
+timm
+yacs
+einops
